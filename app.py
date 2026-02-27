@@ -56,8 +56,8 @@ def generate_response(user_message):
     # 🌿 Default Support
     else:
         return (
-            "I'm here with you.\n\n"
-            "Tell me a little more about what you're experiencing."
+            "ehh...sorry.\n\n"
+            " My developer pushes to production and says ‘let’s see what happens'."
         )
 
 
@@ -74,4 +74,5 @@ def home():
 
 
 if __name__ == "__main__":
+
     app.run(debug=True)
